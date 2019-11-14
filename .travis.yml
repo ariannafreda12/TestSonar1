@@ -10,4 +10,3 @@ addons:
    secure: "travis encrypt 4dbc2a1fa81b4320c121f50231b509c3d59517ef"
 script:
 - ant build
-- sonar-scanner
