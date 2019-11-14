@@ -5,11 +5,9 @@ dist: trusty
 
 addons:
  sonarcloud:
-  organization: ariannafreda12
+  organization: "ariannafreda12"
   token:
-   secure: travis encrypt 0634d8c4b24a23d9a3989d79b078b9a30cf95306
+   secure: "travis encrypt 4dbc2a1fa81b4320c121f50231b509c3d59517ef"
 script:
 - ant build
 - sonar-scanner
-
-
