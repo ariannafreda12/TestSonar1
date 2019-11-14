@@ -6,8 +6,7 @@ jdk:
 addons:
  sonarcloud:
   organization: "ariannafreda12"
-  token:
-   secure: "travis encrypt 990aff30751b6f03d6458052a6eaa2cfa1030f99"
+  token: "travis encrypt 8bb1ecb99f880c53826f949b8e9e59bbd531b53e"
 script:
 - ant build
 - sonar-scanner
