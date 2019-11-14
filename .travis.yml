@@ -7,6 +7,7 @@ addons:
  sonarcloud:
   organization: "ariannafreda12"
   token:
-   secure: "travis encrypt 4dbc2a1fa81b4320c121f50231b509c3d59517ef"
+   secure: "travis encrypt 990aff30751b6f03d6458052a6eaa2cfa1030f99"
 script:
 - ant build
+- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=ariannafreda12_TestSonar1
