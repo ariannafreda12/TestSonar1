@@ -10,4 +10,4 @@ addons:
    secure: "travis encrypt 990aff30751b6f03d6458052a6eaa2cfa1030f99"
 script:
 - ant build
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=ariannafreda12_TestSonar1
+- sonar-scanner
